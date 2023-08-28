@@ -8,7 +8,7 @@ A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que fi
 A Nimbus utiliza um end-pointing de estações pré listadas, eles escolhem o órgão e checam quais estações eles têm numa lista, onde consta o nome da estação, latitude, longitude e a medida da estação que é usada p/ colocar no mapa para o usuário ver.
 
 Onde?
-Região sudeste, focando: Rio de janeiro, São Paulo e Curitiba, mas a empresa está aberta para todas as outras áreas do país de acordo com a demanda de clientes e suas necessidades.
+Região Sul e Sudeste, focando no: Rio de janeiro, São Paulo e Curitiba, mas a empresa está aberta para todas as outras áreas do país de acordo com a demanda de clientes e suas necessidades.
 
 Por quê? 
 Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos), desta forma os clientes podem reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, rodovias etc.
