@@ -1,30 +1,38 @@
 # nimbus_project
 5W2H/Propósito
+---
 
 5W2H
+
 •	QUEM?
   Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
+  
 •	COMO?
   A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
 - Dados de raio (descarga elétrica);
 - Dados de estações meteorológicas; - Dados das próprias obras e localizações a serem monitoradas. 
   Utiliza um end-pointing de estações pré listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta o nome da estação, latitude, longitude e a medida da estação que é usada para colocar no mapa, para o usuário ver.
+  
 •	ONDE?
  Em lugares de construção civil, mares, dentro de lagos e rios com o monitoramento marítimo, locais suscetíveis a deslizamentos de terra, com o intuito de minimizar danos em obras, cidades, lugares de construção e escritórios.
+ 
 •	QUANDO? 
 Através de equações físicas e matemáticas (usando IA) conseguem fazer previsões em um espaço de tempo de espaço de até 15 dias, semanalmente ou diariamente.
 •	O QUÊ? (Quais dados)
 Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras menos usadas como a nuclear. A lista muda de estação para estação e muda o formato do Json.
+
 •	POR QUÊ? 
 Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, rodovias etc.
 
-
 PROPÓSITO
+
   Remodelagem da Interface da página. Torná-la clara e interativa para o usuário correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
   Apresentar uma interface adaptável para uso Mobile que contenha todas as informações acima, apresentando uma visualização clara que compreenda os desafios de pinçamentos no uso Mobile e tamanho reduzido para visualização.
 Botões para Exportação de CSV, PDF e PNG.
 
 ELICITAÇÃO
+---
+
 Elementos a serem identificados
 
 Objetos manipulados pelo sistema: 
