@@ -54,7 +54,7 @@ A ser desenvolvido...
   Uma página que permita que o usuário interaja simultaneamente com o mapa georreferenciado (com a alteração de cor de acordo com a mudaça metereológica), tabelas e gráfico, quando o usuário escolher as variáveis das estações a serem verificadas.
    Formulário de busca com uma série de critérios com filtros, tabela ser exibida no site com um layout mais organizado para melhorar visualização do usuário.
   O sistema deverá oferecer as mesmas funcinalidades para uso mobile  se adequando a restrição do tamanho da tela, sem perder as caracteríticas que a página oferce no monitor.
-  O sistema deverá permitir o download de todas as informações em formato PDF, CSV e PDF.
+  O sistema deverá permitir o download de todas as informações em formato PDF, CSV e PNG.
 
 **Lista de requisitos do sistema:**
 - Tabela
