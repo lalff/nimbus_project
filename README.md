@@ -43,7 +43,7 @@ Botões para Exportação de CSV, PDF e PNG.
 3. **Restrições que devem ser obedecidas (regaras do negócio):**
 A ser desenvolvido...
 
-**Critérios de Desempenho:**
+4. **Critérios de Desempenho:**
 A ser desenvolvido...
 
 
