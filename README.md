@@ -35,12 +35,12 @@ Botões para Exportação de CSV, PDF e PNG.
 
 **Elementos a serem identificados**
 
-**Objetos manipulados pelo sistema:**
+1. **Objetos manipulados pelo sistema:**
 - Janela de escolha de estações metereológicas (com datas, localicalização e variáveis).
 - Tabela de dados para exportação.
-**Serviços prestados pelo sistema:**
+2. **Serviços prestados pelo sistema:**
   Página de dados de estações metereológicas (para previsões num raio de até 15 dias). Na mesma página, há um histórico de dados disponíveis para exportação e elaboração de laudos, que são armazenados no banco de dados e são recuperados através de uma API e exportados em formato de Tabela CSV.
-**Restrições que devem ser obedecidas (regaras do negócio):**
+3. **Restrições que devem ser obedecidas (regaras do negócio):**
 A ser desenvolvido...
 
 **Critérios de Desempenho:**
