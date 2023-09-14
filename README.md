@@ -52,30 +52,30 @@ Botões para Exportação de CSV, PDF e PNG.
 
 **Requisitos Funcionais do Sistema**
 
-FR1: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
+[FR1]: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
 
-FR2: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
+[FR2]: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
 
-FR3: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
+[FR3]: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
 
-FR4: O sistema deverá apresentar uma tabela de dados visualmente clara.
+[FR4]: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
-FR5: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
+[FR5]: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
 
-FR6: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
+[FR6]: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
 
 
 **Requisitos Não-Funcionais do Sistema**
 
-FNR1: O sistema deverá oferecer adaptação para uso Mobile.
+[FNR1]: O sistema deverá oferecer adaptação para uso Mobile.
 
-FNR2: O sistema deverá ser responsivo.
+[FNR2]: O sistema deverá ser responsivo.
 
-FNR3: O sistema deverá ser desenvolvido com React.
+[FNR3]: O sistema deverá ser desenvolvido com React.
 
-FNR4: O sistema deverá tratar o Json com os dados.
+[FNR4]: O sistema deverá tratar o Json com os dados.
 
-FNR5: O sistema deverá apresentar uma experiência intuitiva para o usuário.
+[FNR5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
 
 **Colaboradores LALFF**
