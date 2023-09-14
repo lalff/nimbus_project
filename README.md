@@ -77,6 +77,14 @@ FNR4: O sistema deverá tratar o Json com os dados.
 
 FNR5: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
+
+**Colaboradores LALFF**
+---
+Fernanda Camacho
+Luã Macedo
+Luíza Conrrado 
+Fabiano Amorim
+Anna Flores
   
 
 
