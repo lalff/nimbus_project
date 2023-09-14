@@ -1,11 +1,11 @@
 # Grupo LALFF
+ ![image](https://github.com/lalff/nimbus_project/assets/142255965/c71b6d92-a7ac-4804-bb68-2d0b830bdcb7)
 
-**Nimbus**
 ---
 Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno porte, composta por 6 membros, focada na gestão de risco climático, realizando previsões do tempo nos lugares desejados pelo cliente e mais comumente utilizado por empresas de construção civil e cidades. Gerando um aumento significativo de produtividade e evitando prejuízos com perda de insumos, que poderia ser causado por uma chuva ou mudança de tempo inesperada. 
 
 
-**5W2H**
+📚**5W2H**
 ---
 
 1. •	**QUEM?**
@@ -39,7 +39,7 @@ Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras men
 
 Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, cidades e rodovias.
 
-**PROPÓSITO**
+🔨**PROPÓSITO**
 ---
 
   Remodelagem da Interface da página de histórico de dados. Torná-la clara e interativa para o usuário, correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
@@ -78,7 +78,7 @@ Botões para Exportação de CSV, PDF e PNG.
 [FNR5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
 
-**Colaboradores LALFF**
+🧑‍💻**Colaboradores LALFF**
 ---
 
 Fernanda Camacho
