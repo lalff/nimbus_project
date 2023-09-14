@@ -49,13 +49,15 @@ Botões para Exportação de CSV, PDF e PNG.
 
 FR1: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
 
-FR2: O sistema deverá apresentar um mapa, onde um polígono de localização altere a cor de acordo com as variáveis.
+FR2: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
 
-FR3: O sistema deverá apresentar uma tabela de dados visualmente clara.
+FR4: O sistema deverá fornecer um gráfico ajustável a escala de amplitude e tempo.
 
-FR4: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico.
+FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
-FR5: O sistem deverá apresentar formulário de busca com filtros.
+FR6: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
+
+FR7: O sistem deverá apresentar formulário de busca com filtros.
 
 **Requisitos Não-Funcionais do Sistema**
 
@@ -66,6 +68,10 @@ FNR2: O sistema deverá ser responsivo.
 FNR3: O sistema deverá ser desenvolvido com React.
 
 FNR4: O sistema deverá tratar o Json com os dados.
+
+FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
+
+FR6: O sistema deverá apresentar uma exepriência intuitiva para o usuário.
 
   
 
