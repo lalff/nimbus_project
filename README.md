@@ -1,4 +1,4 @@
-# Grupo LALFF
+
  ![image](https://github.com/lalff/nimbus_project/assets/142255965/c71b6d92-a7ac-4804-bb68-2d0b830bdcb7)
 
 ---
@@ -78,7 +78,7 @@ Botões para Exportação de CSV, PDF e PNG.
 [FNR5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
 
-🧑‍💻**Colaboradores LALFF**
+💎**GRUPO LALFF**
 ---
 
 Fernanda Camacho
