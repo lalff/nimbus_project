@@ -2,7 +2,7 @@
 
 **Nimbus**
 ---
-A Nimbus é uma empresa voltada para o monitoramento de previsão meteorológica e para a redução na incidência de desastres nas cidades, e também para o monitoramento de obras (em todo território brasileiro).
+A Nimbus é uma empresa voltada para o monitoramento de previsão meteorológica e para a redução na incidência de desastres nas cidades do país, e também para o monitoramento de obras (em todo território brasileiro).
 
 A Nimbus é uma empresa de pequeno porte, composta por uma equipe de 6 pessoas alocadas entre Rio de janeiro e Curitiba.
 
