@@ -56,13 +56,13 @@ FR1: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
 
 FR2: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
 
-FR4: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
+FR3: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
 
-FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
+FR4: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
-FR6: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
+FR5: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
 
-FR7: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
+FR6: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
 
 
 **Requisitos Não-Funcionais do Sistema**
