@@ -32,13 +32,14 @@ Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras men
 
 7. •	**POR QUÊ?** 
 
-Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, rodovias etc.
+Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, cidades e rodovias.
 
 **PROPÓSITO**
 ---
 
   Remodelagem da Interface da página de histórico de dados. Torná-la clara e interativa para o usuário, correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
   Apresentar uma interface adaptável para uso Mobile que contenha todas as informações acima, apresentando uma visualização clara que compreenda os desafios de pinçamentos no uso Mobile e tamanho reduzido para visualização.
+
 Botões para Exportação de CSV, PDF e PNG.
 
 **Requisitos do Sistema**
