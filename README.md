@@ -78,7 +78,7 @@ FNR4: O sistema deverá tratar o Json com os dados.
 
 FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
-FR6: O sistema deverá apresentar uma experiência intuitiva para o usuário.
+FNR6: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
   
 
