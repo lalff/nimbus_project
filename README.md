@@ -82,14 +82,10 @@ Botões para Exportação de CSV, PDF e PNG.
 ---
 
 Fernanda Camacho
-
-Luã Macedo
-
-Luíza Conrrado 
-
-Fabiano Amorim
-
-Anna Flores
+<br>Luã Macedo
+<br>Luíza Conrrado 
+<br>Fabiano Amorim
+<br>Anna Flores
   
 
 
