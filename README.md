@@ -51,7 +51,7 @@ FR2: O sistema deverá apresentar um mapa, onde um polígono de localização al
 
 FR3: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
-FR4: O sistema deverá oferecer filtro de dados integrado ao mapa, tabela e gráfico.
+FR4: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico.
 
 FR5: O sistem deverá apresentar formulário de busca com filtros.
 
