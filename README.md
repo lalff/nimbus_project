@@ -10,12 +10,16 @@ Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados met
 
 A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
 - Dados de raio (descarga elétrica);
-- Dados de estações meteorológicas; - Dados das próprias obras e localizações a serem monitoradas. 
-  Utiliza um end-pointing de estações pré listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta o nome da estação, latitude, longitude e a medida da estação que é usada para colocar no mapa, para o usuário ver.
+- Dados de estações meteorológicas;
+- Dados das próprias obras e localizações a serem monitoradas. 
+ 
+ Utiliza um end-pointing de estações pré listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta o nome da estação, latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário .
   
 3. •	**ONDE?**
 
-Em lugares de construção civil, dentro de lagos, rios com o monitoramento marítimo, locais suscetíveis a deslizamentos de terra, cidades e escritórios.
+Em lugares de construção civil, dentro de lagos, rios com o monitoramento marítimo, locais suscetíveis a deslizamentos de terra.
+
+O sistema é usado em lugares de contrução e escritórios.
 
 5. •	**QUANDO?** 
 
@@ -32,53 +36,35 @@ Para o monitoramento de alterações climáticas (como chuva forte, alteração 
 **PROPÓSITO**
 ---
 
-  Remodelagem da Interface da página. Torná-la clara e interativa para o usuário correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
+  Remodelagem da Interface da página de histórico de dados. Torná-la clara e interativa para o usuário, correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
   Apresentar uma interface adaptável para uso Mobile que contenha todas as informações acima, apresentando uma visualização clara que compreenda os desafios de pinçamentos no uso Mobile e tamanho reduzido para visualização.
 Botões para Exportação de CSV, PDF e PNG.
 
-**ELICITAÇÃO**
+**Requisitos do Sistema**
 ---
 
-**Elementos a serem identificados**
-
-1. **Objetos manipulados pelo sistema:**
-- Janela de escolha de estações metereológicas (com datas, localicalização e variáveis).
-- Tabela de dados para exportação.
-2. **Serviços prestados pelo sistema:**
-  Página de dados de estações metereológicas (para previsões num raio de até 15 dias). Na mesma página, há um histórico de dados disponíveis para exportação e elaboração de laudos, que são armazenados no banco de dados e são recuperados através de uma API e exportados em formato de Tabela CSV.
-3. **Restrições que devem ser obedecidas (regaras do negócio):**
-A ser desenvolvido...
-
-4. **Critérios de Desempenho:**
-A ser desenvolvido...
-
-
-**Resultados Esperados**
-
-**Narrativa em línguagem natural dos requisitos do sistema:**
-  Uma página que permita que o usuário interaja simultaneamente com o mapa georreferenciado (com a alteração de cor de acordo com a mudaça metereológica), tabelas e gráfico, quando o usuário escolher as variáveis das estações a serem verificadas.
-   Formulário de busca com uma série de critérios com filtros, tabela ser exibida no site com um layout mais organizado para melhorar visualização do usuário.
-  O sistema deverá oferecer as mesmas funcinalidades para uso mobile  se adequando a restrição do tamanho da tela, sem perder as caracteríticas que a página oferce no monitor.
-  O sistema deverá permitir o download de todas as informações em formato PDF, CSV e PNG.
-
-**Lista de requisitos do sistema:**
-- Tabela
-- Gráfico
-- Mapa
-- Botão para download
-- Adaptação Mobile
-
 **Requisitos Funcionais do Sistema**
+
 FR1: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
+
 FR2: O sistema deverá apresentar um mapa, onde um polígono de localização altere a cor de acordo com as variáveis.
+
 FR3: O sistema deverá apresentar uma tabela de dados visualmente clara.
-FR4: O sistema deverá oferecer filtro de dados integrad.
+
+FR4: O sistema deverá oferecer filtro de dados integrado ao mapa, tabela e gráfico.
+
+FR5: O sistem deverá apresentar formulário de busca com filtros.
 
 **Requisitos Não-Funcionais do Sistema**
+
 FNR1: O sistema deverá oferecer adaptação para uso Mobile.
+
 FNR2: O sistema deverá ser responsivo.
+
 FNR3: O sistema deverá ser desenvolvido com React.
-FNR4: O sistema deve tratar o Json com os dados.
+
+FNR4: O sistema deverá tratar o Json com os dados.
+
   
 
 
