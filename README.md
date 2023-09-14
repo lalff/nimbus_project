@@ -2,9 +2,7 @@
 
 **Nimbus**
 ---
-A Nimbus é uma empresa voltada para o monitoramento de previsão meteorológica e para a redução na incidência de desastres nas cidades do país, e também para o monitoramento de obras (em todo território brasileiro).
-
-A Nimbus é uma empresa de pequeno porte, composta por uma equipe de 6 pessoas alocadas entre Rio de janeiro e Curitiba.
+Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech, composta por 6 membros, focada na gestão de risco climático, realizando previsões do tempo nos lugares desejados pelo cliente e mais comumente utilizado por empresas de construção civil, evitando prejuízos com perda de insumos, que poderia ser causado por uma chuva ou mudança de tempo inesperada, e um aumento significativo de produtividade.
 
 
 **5W2H**
@@ -58,13 +56,13 @@ FR1: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
 
 FR2: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
 
-FR4: O sistema deverá fornecer um gráfico ajustável a escala de amplitude e tempo.
+FR4: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
 
 FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
 FR6: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
 
-FR7: O sistema deverá apresentar formulário de busca com filtros.
+FR7: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
 
 **Requisitos Não-Funcionais do Sistema**
 
@@ -76,9 +74,7 @@ FNR3: O sistema deverá ser desenvolvido com React.
 
 FNR4: O sistema deverá tratar o Json com os dados.
 
-FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
-
-FNR6: O sistema deverá apresentar uma experiência intuitiva para o usuário.
+FNR5: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
   
 
