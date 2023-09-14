@@ -64,6 +64,7 @@ FR6: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e g
 
 FR7: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
 
+
 **Requisitos Não-Funcionais do Sistema**
 
 FNR1: O sistema deverá oferecer adaptação para uso Mobile.
