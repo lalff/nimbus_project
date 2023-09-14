@@ -2,7 +2,7 @@
 
 **Nimbus**
 ---
-Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech, composta por 6 membros, focada na gestão de risco climático, realizando previsões do tempo nos lugares desejados pelo cliente e mais comumente utilizado por empresas de construção civil, evitando prejuízos com perda de insumos, que poderia ser causado por uma chuva ou mudança de tempo inesperada, e um aumento significativo de produtividade.
+Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno porte, composta por 6 membros, focada na gestão de risco climático, realizando previsões do tempo nos lugares desejados pelo cliente e mais comumente utilizado por empresas de construção civil e cidades, gerando um aumento significativo de produtividade e evitando prejuízos com perda de insumos, que poderia ser causado por uma chuva ou mudança de tempo inesperada. 
 
 
 **5W2H**
