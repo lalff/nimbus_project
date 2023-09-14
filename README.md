@@ -57,7 +57,7 @@ FR5: O sistema deverá apresentar uma tabela de dados visualmente clara.
 
 FR6: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
 
-FR7: O sistem deverá apresentar formulário de busca com filtros.
+FR7: O sistema deverá apresentar formulário de busca com filtros.
 
 **Requisitos Não-Funcionais do Sistema**
 
