@@ -47,7 +47,7 @@ Para o monitoramento de alterações climáticas (como chuva forte, alteração 
 
 Botões para Exportação de CSV, PDF e PNG.
 
-!("C:\Users\ferna\Pictures\🗒️ Bloco Espiral Emoji_files\1f5d2(4).png")**Requisitos do Sistema**
+🗒️**Requisitos do Sistema**
 ---
 
 **Requisitos Funcionais do Sistema**
