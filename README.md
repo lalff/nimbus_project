@@ -52,17 +52,15 @@ Botões para Exportação de CSV, PDF e PNG.
 
 **Requisitos Funcionais do Sistema**
 
-•[FR1]: O sistema deverá exportar dados em formato: CSV, PDF e PNG.
+| RF  | Descrição                                                   |
+| --- | ----------------------------------------------------------- |
+| FR1 | Exportação de dados em formato: CSV, PDF e PNG.             |
+| FR2 | Apresentação de um mapa com polígono de localização que altera a cor de acordo com as alterações climáticas. |
+| FR3 | Fornecimento de gráficos (linear, de barras e de vetores) ajustáveis em escala de amplitude e tempo. |
+| FR4 | Apresentação de uma tabela de dados visualmente clara.       |
+| FR5 | Oferecimento de um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
+| FR6 | Apresentação de um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
 
-•[FR2]: O sistema deverá apresentar um mapa, contendo um polígono de localização que altere a cor de acordo com as alterações climáticas.
-
-•[FR3]: O sistema deverá fornecer um gráfico (linear, barras e vetores) e ser ajustável a escala de amplitude e tempo.
-
-•[FR4]: O sistema deverá apresentar uma tabela de dados visualmente clara.
-
-•[FR5]: O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alterção sincrônica.
-
-•[FR6]: O sistema deverá apresentar formulário de busca com filtros (data inicial e data final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada).
 
 
 **Requisitos Não-Funcionais do Sistema**
