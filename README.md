@@ -52,28 +52,28 @@ Botões para Exportação de CSV, PDF e PNG.
 
 **Requisitos Funcionais do Sistema**
 
-| RF  | Descrição                                                   |
+|  RF  |Descrição                                                   |
 | --- | ----------------------------------------------------------- |
-| FR1 | Exportação de dados em formato: CSV, PDF e PNG.             |
-| FR2 | Apresentação de um mapa com polígono de localização que altera a cor de acordo com as alterações climáticas. |
-| FR3 | Fornecimento de gráficos (linear, de barras e de vetores) ajustáveis em escala de amplitude e tempo. |
-| FR4 | Apresentação de uma tabela de dados visualmente clara.       |
-| FR5 | Oferecimento de um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
-| FR6 | Apresentação de um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
+| RF1 | Exportação de dados em formato: CSV, PDF e PNG.             |
+| RF2 | Apresentação de um mapa com polígono de localização que altera a cor de acordo com as alterações climáticas. |
+| RF3 | Fornecimento de gráficos (linear, de barras e de vetores) ajustáveis em escala de amplitude e tempo. |
+| RF4 | Apresentação de uma tabela de dados visualmente clara.       |
+| RF5 | Oferecimento de um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
+| RF6 | Apresentação de um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
 
 
 
 **Requisitos Não-Funcionais do Sistema**
 
-•[FNR1]: O sistema deverá oferecer adaptação para uso Mobile.
+•[RNF1]: O sistema deverá oferecer adaptação para uso Mobile.
 
-•[FNR2]: O sistema deverá ser responsivo.
+•[RNF2]: O sistema deverá ser responsivo.
 
-•[FNR3]: O sistema deverá ser desenvolvido com React.
+•[RNF3]: O sistema deverá ser desenvolvido com React.
 
-•[FNR4]: O sistema deverá tratar o Json com os dados.
+•[RNF4]: O sistema deverá tratar o Json com os dados.
 
-•[FNR5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
+•[RNF5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
 
 
 💎**GRUPO LALFF**
