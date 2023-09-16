@@ -50,30 +50,26 @@ Botões para Exportação de CSV, PDF e PNG.
 🗒️***Requisitos do Sistema***
 ---
 
-**Requisitos Funcionais do Sistema**
 
-|  RF  |Descrição                                                   |
+|    |      **Requisitos Funcionais do Sistema**                                          |
 | --- | ----------------------------------------------------------- |
-| RF1 | Exportação de dados em formato: CSV, PDF e PNG.             |
-| RF2 | Apresentação de um mapa com polígono de localização que altera a cor de acordo com as alterações climáticas. |
-| RF3 | Fornecimento de gráficos (linear, de barras e de vetores) ajustáveis em escala de amplitude e tempo. |
-| RF4 | Apresentação de uma tabela de dados visualmente clara.       |
-| RF5 | Oferecimento de um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
-| RF6 | Apresentação de um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
+| RF1 | O sistema deverá exportar dados em formato: CSV, PDF e PNG.             |
+| RF2 | O sistema deverá apresentar um mapa contendo um polígono de localização, que altera a cor de acordo com as alterações climáticas. |
+| RF3 | O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
+| RF4 | O sistema deverá fornecer um gráfico (linear, de barras e de vetores) ajustável, em escala de amplitude e tempo. |
+| RF5 | O sistema deverá apresentar uma tabela de dados visualmente clara.       |
+| RF6 | O sistema deverá presentar um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
 
 
 
-**Requisitos Não-Funcionais do Sistema**
 
-•[RNF1]: O sistema deverá oferecer adaptação para uso Mobile.
-
-•[RNF2]: O sistema deverá ser responsivo.
-
-•[RNF3]: O sistema deverá ser desenvolvido com React.
-
-•[RNF4]: O sistema deverá tratar o Json com os dados.
-
-•[RNF5]: O sistema deverá apresentar uma experiência intuitiva para o usuário.
+|    |      **Requisitos Não-Funcionais do Sistema**                                           |
+| --- | ----------------------------------------------------------- |
+| RNF1 | O sistema deverá oferecer adaptação para uso Mobile             |
+| RNF2 | O sistema deverá ser responsivo.          |
+| RNF3 | O sistema deverá ser desenvolvido com React.                                                                          |
+| RNF4 | O sistema deverá tratar o Json com os dados. |
+| RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
 
 
 💎**GRUPO LALFF**
