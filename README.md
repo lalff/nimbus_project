@@ -58,7 +58,7 @@ Botões para Exportação de CSV, PDF e PNG.
 | RF3 | O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
 | RF4 | O sistema deverá fornecer um gráfico (linear, de barras e de vetores) ajustável, em escala de amplitude e tempo. |
 | RF5 | O sistema deverá apresentar uma tabela de dados visualmente clara.       |
-| RF6 | O sistema deverá presentar um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
+| RF6 | O sistema deverá apresentar um formulário de busca com filtros (data inicial e final, tipo de variável, ponto de monitoramento, frequência e operação matemática utilizada). |
 
 
 
