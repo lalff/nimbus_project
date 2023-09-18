@@ -19,7 +19,7 @@ A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que fi
 - Dados de estações meteorológicas;
 - Dados das próprias obras e localizações a serem monitoradas. 
  
- Utiliza um end-pointing de estações pré listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta o nome da estação, latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário .
+ Utiliza um end-pointing de estações pré-listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário .
   
 •	**ONDE?**
 
