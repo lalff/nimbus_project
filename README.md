@@ -42,10 +42,59 @@ Para o monitoramento de alterações climáticas (como chuva forte, alteração 
 🔨***PROPÓSITO***
 ---
 
-  Remodelagem da Interface da página de histórico de dados. Torná-la clara e interativa para o usuário, correlacionando marcadores georreferenciados no mapa, gráfico (barra, vetores e linear) com interação simultânea das variáveis e as tabelas de dados, sem a necessidade de download prévio.
-  Apresentar uma interface adaptável para uso Mobile que contenha todas as informações acima, apresentando uma visualização clara que compreenda os desafios de pinçamentos no uso Mobile e tamanho reduzido para visualização.
+• **Propósito do Projeto:**
 
-Botões para Exportação de CSV, PDF e PNG.
+O propósito do projeto é melhorar a interface da página de histórico de dados, tornando-a mais clara, interativa e adaptável para uso em dispositivos móveis. O objetivo é proporcionar aos usuários uma experiência mais eficiente e informativa ao visualizar e analisar dados georreferenciados. Isso inclui a correlação de marcadores georreferenciados no mapa, gráficos de diferentes tipos (barra, vetores e linear) e tabelas de dados, tudo sem a necessidade de download prévio. Além disso, o projeto visa facilitar a exportação de dados em formatos como CSV, PDF e PNG.
+
+• **Propósito do Sistema:**
+
+O propósito do sistema é fornecer aos usuários uma plataforma robusta e intuitiva para acessar e analisar dados georreferenciados de forma eficaz. Isso implica em:
+
+• Visualização de Dados Georreferenciados: O sistema deve permitir que os usuários visualizem marcadores georreferenciados em um mapa interativo, facilitando a compreensão da distribuição geográfica dos dados.
+
+• Correlação de Dados: Os usuários devem ser capazes de correlacionar dados no mapa com gráficos (barra, vetores e linear) que mostram informações relacionadas. Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
+
+• Visualização em Dispositivos Móveis: O sistema deve ser adaptável para uso em dispositivos móveis, levando em consideração restrições de espaço e a necessidade de proporcionar uma experiência de usuário eficiente em telas menores.
+
+• Exportação de Dados: Deve haver botões de exportação que permitam aos usuários salvar os dados em formatos úteis, como CSV, PDF e PNG, para fins de análise ou compartilhamento.
+
+• Interação Simultânea: Os usuários devem ser capazes de interagir simultaneamente com o mapa, gráficos e tabelas de dados, sem a necessidade de alternar entre diferentes telas ou janelas.
+
+• Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuários possam compreender os dados facilmente e realizar análises de maneira eficiente.
+
+• Recursos de Pinçamento para Dispositivos Móveis: A interface móvel deve incluir recursos de pinçamento (zoom in/out) para facilitar a visualização e a navegação em telas menores.
+
+• Adaptação a Tamanhos Reduzidos: A interface deve ser projetada para funcionar de maneira eficaz mesmo em dispositivos com telas pequenas, garantindo que todos os elementos importantes sejam acessíveis.
+
+👨‍💻***CASOS DE USO DO SISTEMA***
+---
+
+• **Caso de Uso**: Previsão de Condições Climáticas para Canteiros de Obras
+
+• **Ator Principal**: Cliente da Nimbus (Empresa de Construção Civil ou Empresa de Monitoramento de Cidades).
+
+• **Objetivo**: O cliente deseja utilizar os serviços da Nimbus para obter previsões precisas das condições climáticas em locais específicos onde estão realizando projetos de construção ou monitoramento urbano. Isso permitirá tomar medidas proativas para minimizar os riscos associados às mudanças climáticas e garantir a eficiência operacional.
+
+• **Pré-condições:**
+
+O cliente possui uma conta ativa na plataforma Nimbus.
+O cliente forneceu informações sobre os locais de interesse onde os projetos de construção ou monitoramento estão ocorrendo.
+
+• **Fluxo Básico:**
+
+1) O cliente faz login na plataforma Nimbus.
+2) Na página inicial, o cliente seleciona a opção "Contato".
+3) O cliente especifica os seguintes parâmetros:
+- Localização: O cliente escolhe um ou vários locais onde seus projetos estão em andamento.
+- Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
+4) O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
+5) O cliente recebe as previsões climáticas por meio da plataforma Nimbus e pode acessá-las em tempo real.
+
+• **Pós-condições:**
+
+1) O cliente utiliza as previsões climáticas fornecidas pela Nimbus para tomar decisões informadas em seus projetos de construção ou operações de monitoramento.
+2) O cliente melhora a eficiência operacional, evitando prejuízos causados por mudanças climáticas imprevistas, como atrasos na construção, danos aos equipamentos ou interrupções nos serviços de monitoramento.
+
 
 🗒️***ELICITAÇÃO***
 ---
