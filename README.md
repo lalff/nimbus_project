@@ -99,8 +99,8 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 - Fluxo Básico:
 1. O cliente faz login na plataforma Nimbus.
 2. O cliente especifica os seguintes parâmetros:
-   2.1 Localização: O cliente escolhe um ou vários locais onde seus projetos estarão em andamento.
-   2.2 Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
+   - Localização: O cliente escolhe um ou vários locais onde seus projetos estarão em andamento.
+   - Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
 3. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
 4. O cliente recebe as previsões meteorológicas por meio da plataforma Nimbus e pode acessá-las em tempo real.
 - Pós-condições:
