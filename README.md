@@ -15,7 +15,7 @@ Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno
 
 - **COMO?**
 
-    - O projeto deverá oferecer todos os tipos de dados disponibilizados pelo software.
+    - O projeto deverá oferecer todos os tipos de dados disponibilizados pela plataforma.
     - A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
       - Dados de raio (descarga elétrica);
       - Dados de estações meteorológicas;
@@ -37,12 +37,12 @@ O sistema é usado em lugares de contrução e escritórios.
 
 - **O QUÊ? (Quais dados)**
 
-    - O projeto deverá importar uma série de variáveis, de acordo com a necessidade do usuário.
+    - O projeto deverá acessar uma série de variáveis, de acordo com a necessidade do usuário.
     - Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras menos usadas como a nuclear. A lista muda de estação para estação e muda o formato do Json.
 
 - 	**POR QUÊ?** 
 
-    - O projeto deve ser desenvolvido para melhorar e solucionar os problemas e soluções da Nimbus.
+    - O projeto deve ser desenvolvido para melhorar e solucionar os problemas informados pela Nimbus.
     - Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, cidades e rodovias.
 
 🔨 ***PROPÓSITO***
@@ -50,29 +50,23 @@ O sistema é usado em lugares de contrução e escritórios.
 
 - **Propósito do Projeto:**
 
-O propósito do projeto é melhorar a interface da página de histórico de dados, tornando-a mais clara, interativa e adaptável para uso em dispositivos móveis. O objetivo é proporcionar aos usuários uma experiência mais eficiente e informativa ao visualizar e analisar dados georreferenciados. Isso inclui a correlação de marcadores georreferenciados no mapa, gráficos de diferentes tipos (barra, vetores e linear) e tabelas de dados, tudo sem a necessidade de download prévio. Além disso, o projeto visa facilitar a exportação de dados em formatos como CSV, PDF e PNG.
+O propósito do projeto é reformular a interface da página de histórico de dados, tornando-a mais clara, interativa e adaptável para uso em dispositivos móveis e web. O objetivo é proporcionar aos usuários uma experiência mais eficiente e informativa ao visualizar e analisar dados georreferenciados. Isso inclui a correlação de marcadores georreferenciados no mapa, gráficos de diferentes tipos (barra, vetores e linear) e tabelas de dados, tudo sem a necessidade de download prévio. Além disso, o projeto visa facilitar a exportação de dados em formatos como CSV, PDF e PNG.
 
 - **Propósito do Sistema:**
 
-O propósito do sistema é fornecer aos usuários uma plataforma robusta e intuitiva para acessar e analisar dados georreferenciados de forma eficaz. Isso implica em:
+O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para acesso e analise de dados georreferenciados de forma eficaz. Isso implica em:
 
-1. Visualização de Dados Georreferenciados: O sistema deve permitir que os usuários visualizem marcadores georreferenciados em um mapa interativo, facilitando a compreensão da distribuição geográfica dos dados.
+1. Visualização de Dados Georreferenciados: O sistema deve permitir que os usuários visualizem marcadores georreferenciados em um mapa interativo, com um polígono que altere sua cor de acordo com as variáveis.
 
 1. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados no mapa com gráficos (barra, vetores e linear) que mostram informações relacionadas. Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
 
-1. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para uso em dispositivos móveis, levando em consideração restrições de espaço e a necessidade de proporcionar uma experiência de usuário eficiente em telas menores.
-
-1. Exportação de Dados: Deve haver botões de exportação que permitam aos usuários salvar os dados em formatos úteis, como CSV, PDF e PNG, para fins de análise ou compartilhamento.
-
-1. Interação Simultânea: Os usuários devem ser capazes de interagir simultaneamente com o mapa, gráficos e tabelas de dados, sem a necessidade de alternar entre diferentes telas ou janelas.
+1. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para uso em dispositivos móveis e adaptável para diferentes formatos de tela.
+   
+1. Exportação de Dados: Deve haver botões de exportação que permitam aos usuários salvar os dados em formatos: CSV, PDF e PNG, para fins de análise ou compartilhamento.
 
 1. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuários possam compreender os dados facilmente e realizar análises de maneira eficiente.
 
-1. Recursos de Pinçamento para Dispositivos Móveis: A interface móvel deve incluir recursos de pinçamento (zoom in/out) para facilitar a visualização e a navegação em telas menores.
-
-1. Adaptação a Tamanhos Reduzidos: A interface deve ser projetada para funcionar de maneira eficaz mesmo em dispositivos com telas pequenas, garantindo que todos os elementos importantes sejam acessíveis.
-
-1. Botões para Exportação de CSV, PDF e PNG.
+1. Recursos de Pinçamento para Dispositivos Móveis: A interface móvel deve incluir recursos (zoom in/out) para facilitar a visualização e a navegação em telas menores.
 
 🗒️ ***ELICITAÇÃO***
 ---
@@ -100,19 +94,21 @@ O propósito do sistema é fornecer aos usuários uma plataforma robusta e intui
 ---
 
 - Nome: O Sistema da Nimbus é pensada para solucionar problemas meteorológicos.
-- Ator: Cliente ou organização que precise de dados meterológicos.
-- Pré condições: O sistema deve estar com suas tabelas, historico de dados e mapas funcionando perfeitamente.
+- Ator: Perfil de usuários (Clientes ou organizações que precisem de dados meterológicos).
+- Pré condições: O usuário precisa estar logado, o sistema deve estar com suas tabelas, histórico de dados, mapas funcionando perfeitamente e suas bases de dados conectados.
 - Fluxo Básico:
 1. O cliente faz login na plataforma Nimbus.
-1. Na página inicial, o cliente seleciona a opção "Contato".
-1. O cliente especifica os seguintes parâmetros:
-   1. Localização: O cliente escolhe um ou vários locais onde seus projetos estão em andamento.
-   1. Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
-1. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
-1.  O cliente recebe as previsões climáticas por meio da plataforma Nimbus e pode acessá-las em tempo real.
+2. O cliente especifica os seguintes parâmetros:
+   2.1 Localização: O cliente escolhe um ou vários locais onde seus projetos estarão em andamento.
+   2.2 Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
+3. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
+4. O cliente recebe as previsões meteorológicas por meio da plataforma Nimbus e pode acessá-las em tempo real.
 - Pós-condições:
-1. O cliente utiliza as previsões climáticas fornecidas pela Nimbus para tomar decisões informadas em seus projetos de construção ou operações de monitoramento.
-1. O cliente melhora a eficiência operacional, evitando prejuízos causados por mudanças climáticas imprevistas, como atrasos na construção, danos aos equipamentos ou interrupções nos serviços de monitoramento.
+1. O usuário terá acesso aos dados préviamente selecionados.
+2. O usuário pode manipular e fazer alterações nos dados.
+3. O usuário pode exportar os dados.
+   
+
 
 
 💎 ***GRUPO LALFF***
