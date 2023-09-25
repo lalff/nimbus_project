@@ -93,17 +93,17 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 👨‍💻 ***CASOS DE USO***
 ---
 
-- Nome: O Sistema da Nimbus é pensada para solucionar problemas meteorológicos.
-- Ator: Perfil de usuários (Clientes ou organizações que precisem de dados meterológicos).
-- Pré condições: O usuário precisa estar logado, o sistema deve estar com suas tabelas, histórico de dados, mapas funcionando perfeitamente e suas bases de dados conectados.
-- Fluxo Básico:
+- **Nome:** O Sistema da Nimbus é pensada para solucionar problemas meteorológicos.
+- **Ator:** Perfil de usuários (Clientes ou organizações que precisem de dados meterológicos).
+- **Pré condições:** O usuário precisa estar logado, o sistema deve estar com suas tabelas, histórico de dados, mapas funcionando perfeitamente e suas bases de dados conectados.
+- **Fluxo Básico:**
 1. O cliente faz login na plataforma Nimbus.
 2. O cliente especifica os seguintes parâmetros:
    - Localização: O cliente escolhe um ou vários locais onde seus projetos estarão em andamento.
    - Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
 3. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
 4. O cliente recebe as previsões meteorológicas por meio da plataforma Nimbus e pode acessá-las em tempo real.
-- Pós-condições:
+- **Pós-condições:**
 1. O usuário terá acesso aos dados préviamente selecionados.
 2. O usuário pode manipular e fazer alterações nos dados.
 3. O usuário pode exportar os dados.
