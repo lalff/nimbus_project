@@ -10,42 +10,36 @@ Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno
 
 -	**QUEM?**
 
-    - O projeto tem como principal objetivo entregar dados meteorológicos de alta precisão para qualquer tipo de empresa e indivíduo.
-
-    - Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
+ Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
    
 
 - **COMO?**
-
-    - O projeto deverá oferecer todos os tipos de dados disponibilizados pela plataforma.
-    - A plataforma absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
-      - Dados de raio (descarga elétrica);
-      - Dados de estações meteorológicas;
-      - Dados das próprias obras e localizações a serem monitoradas. 
+  
+O sistema absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
+      
+    - Dados de raio (descarga elétrica);
+    - Dados de estações meteorológicas;
+    - Dados das próprias obras e localizações a serem monitoradas. 
  
- Utiliza um end-pointing de estações pré-listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário.
+Utiliza um end-pointing de estações pré-listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário.
   
 -	**ONDE?**
 
-    - O projeto deverá ser desenvolvido pelos individuos do grupo, que farão reuniões semanais via chamadas de video.
-    - Em lugares de construção civil, dentro de lagos, rios com o monitoramento marítimo, locais suscetíveis a deslizamentos de terra.
-
-O sistema é usado em lugares de contrução e escritórios.
+O sistema fornecerá para os usuários a utilização da página de histórico de dados por dispositivos móveis e web. Facilitando o uso tanto na rua quanto em escritótio.
 
 -	**QUANDO?** 
 
-    - O projeto deverá ser realizado e apresentado semanalmente.
-    - Através de equações físicas e matemáticas (usando IA) conseguem fazer previsões em um espaço de tempo de espaço de até 15 dias, semanalmente ou diariamente.
+Os usuários farão uso do sistema, quando houver a necessidade de busca por dados meteorológicos, tanto para planejamento de obras ou acompanhamento delas, como para monitoramento de cidades ou qualquer outra necessidade do usuário. 
 
 - **O QUÊ? (Quais dados)**
 
-    - O projeto deverá acessar uma série de variáveis, de acordo com a necessidade do usuário.
-    - Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras menos usadas como a nuclear. A lista muda de estação para estação e muda o formato do Json.
+Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras menos usadas como a nuclear. A lista muda de estação para estação e muda o formato do Json. 
+
+O sistema deverá apresentar as váriaveis manipuladas pela Nimbus de forma intuitiva e objetiva para os usuários.
 
 - 	**POR QUÊ?** 
 
-    - O projeto deve ser desenvolvido para melhorar e solucionar os problemas informados pela Nimbus.
-    - Para o monitoramento de alterações climáticas (como chuva forte, alteração nas marés e nos lagos) desta forma os usuários poderão reorganizar seus cronogramas de obras, realocação de insumos e mudança no quadro de atividade. O monitoramento das chuvas ou alteração nas marés ajuda a detectar possíveis prejuízos que possam ser gerados na construção civil, em estaleiros, cidades e rodovias.
+A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais institiva para o usuário, além de melhorar o desempenho visual e trazer reponsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
 
 🔨 ***PROPÓSITO***
 ---
