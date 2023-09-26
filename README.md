@@ -10,8 +10,10 @@ Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno
 
 -	**QUEM?**
 
-    - Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
     - O projeto tem como principal objetivo entregar dados meteorológicos de alta precisão para qualquer tipo de empresa e indivíduo.
+
+    - Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
+   
 
 - **COMO?**
 
@@ -75,7 +77,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 |    |      **Requisitos Funcionais do Sistema**                                          |
 | --- | ----------------------------------------------------------- |
 | RF1 | O sistema deverá exportar dados em formato: CSV, PDF e PNG.             |
-| RF2 | O sistema deverá apresentar um mapa contendo um polígono de localização, que altera a cor de acordo com as alterações climáticas. |
+| RF2 | O sistema deverá apresentar um mapa contendo um polígono de localização, que altera a cor de acordo com as alterações das variáveis meteorológicas. |
 | RF3 | O sistema deverá oferecer um filtro de dados integrado ao mapa, tabela e gráfico com alteração sincrônica. |
 | RF4 | O sistema deverá fornecer um gráfico (linear, de barras e de vetores) ajustável, em escala de amplitude e tempo. |
 | RF5 | O sistema deverá apresentar uma tabela de dados visualmente clara.       |
@@ -90,25 +92,70 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 | RNF4 | O sistema deverá tratar o Json com os dados. |
 | RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
 
-👨‍💻 ***CASOS DE USO***
+👨‍💻 ***CASOS DE USO:***
 ---
-
-- **Nome:** O Sistema da Nimbus é pensada para solucionar problemas meteorológicos.
-- **Ator:** Perfil de usuários (Clientes ou organizações que precisem de dados meterológicos).
-- **Pré condições:** O usuário precisa estar logado, o sistema deve estar com suas tabelas, histórico de dados, mapas funcionando perfeitamente e suas bases de dados conectados.
+**Caso de uso: Análise de dados**
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
-1. O cliente faz login na plataforma Nimbus.
-2. O cliente especifica os seguintes parâmetros:
-   - Localização: O cliente escolhe um ou vários locais onde seus projetos estarão em andamento.
-   - Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
-3. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
-4. O cliente recebe as previsões meteorológicas por meio da plataforma Nimbus e pode acessá-las em tempo real.
-- **Pós-condições:**
-1. O usuário terá acesso aos dados préviamente selecionados.
-2. O usuário pode manipular e fazer alterações nos dados.
-3. O usuário pode exportar os dados.
-   
 
+[FB1] O usuário seleciona a página de histórico de dados.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+[FB4] O usuário escolhe a localização à ser pesquisada.
+
+  
+- **Pós-condições:**
+
+[1] O usuário receberá as previsões meteorológicas por meio da plataforma.
+
+[2] O usuário terá acesso aos dados préviamente selecionados.
+
+[3] O usuário pode manipular e fazer alterações nas váriaveis, data e localização para novas buscas.
+
+**Caso de uso: Extração de dados**
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
+
+[FB1] O usuário seleciona a página de histórico de dados.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+[FB4] O usuário escolhe a localização da pesquisa.
+
+[FB5] O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
+
+[FB6] O usuário clica na opção de exportar.
+
+- **Pós-condições:**
+
+[1] O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
+
+**Caso de uso: Interação com o mapa**
+
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
+
+[FB1] O usuário seleciona a localização que deseja, usando um polígono no mapa.
+
+[FB2] O usuário a partir da região selecionada no mapa, poderá expecificar uma determinada área de busca selecionando uma estação.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados para especificar a busca.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+- **Pós-condições:**
+
+[1] O usuário obterá um relatório na página de histórico de dados com as informações selecionadas.
+
+   
 
 
 💎 ***GRUPO LALFF***
