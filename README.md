@@ -98,21 +98,68 @@ O propósito do sistema é fornecer aos usuários uma plataforma robusta e intui
 
 👨‍💻 ***CASOS DE USO***
 ---
+**Caso de uso: Análise de dados**
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
 
-- Nome: O Sistema da Nimbus é pensada para solucionar problemas meteorológicos.
-- Ator: 
-- Pré condições: O sistema deve estar com suas tabelas, historico de dados e mapas funcionando perfeitamente.
-- Fluxo Básico:
-1. O cliente faz login na plataforma Nimbus.
-1. Na página inicial, o cliente seleciona a opção "Contato".
-1. O cliente especifica os seguintes parâmetros:
-   1. Localização: O cliente escolhe um ou vários locais onde seus projetos estão em andamento.
-   1. Período de Previsão: Define o período de tempo para o qual deseja obter a previsão climática (por exemplo, próximos 7 dias).
-1. O sistema Nimbus processa a solicitação do cliente e gera previsões detalhadas para os locais especificados durante o período selecionado.
-1.  O cliente recebe as previsões climáticas por meio da plataforma Nimbus e pode acessá-las em tempo real.
-- Pós-condições:
-1. O cliente utiliza as previsões climáticas fornecidas pela Nimbus para tomar decisões informadas em seus projetos de construção ou operações de monitoramento.
-1. O cliente melhora a eficiência operacional, evitando prejuízos causados por mudanças climáticas imprevistas, como atrasos na construção, danos aos equipamentos ou interrupções nos serviços de monitoramento.
+[FB1] O usuário seleciona a página de histórico de dados.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+[FB4] O usuário escolhe a localização à ser pesquisada.
+
+  
+- **Pós-condições:**
+
+[1] O usuário receberá as previsões meteorológicas por meio da plataforma.
+
+[2] O usuário terá acesso aos dados préviamente selecionados.
+
+[3] O usuário pode manipular e fazer alterações nas váriaveis, data e localização para novas buscas.
+
+**Caso de uso: Extração de dados**
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
+
+[FB1] O usuário seleciona a página de histórico de dados.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+[FB4] O usuário escolhe a localização da pesquisa.
+
+[FB5] O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
+
+[FB6] O usuário clica na opção de exportar.
+
+- **Pós-condições:**
+
+[1] O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
+
+**Caso de uso: Interação com o mapa**
+
+- **Ator:** Usuários.
+- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
+
+[FB1] O usuário seleciona a localização que deseja, usando um polígono no mapa.
+
+[FB2] O usuário a partir da região selecionada no mapa, poderá expecificar uma determinada área de busca selecionando uma estação.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados para especificar a busca.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+- **Pós-condições:**
+
+[1] O usuário obterá um relatório na página de histórico de dados com as informações selecionadas.
+
+   
 
 
 💎 ***GRUPO LALFF***
