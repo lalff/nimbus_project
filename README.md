@@ -71,6 +71,27 @@ Botões para Exportação de CSV, PDF e PNG.
 | RNF4 | O sistema deverá tratar o Json com os dados. |
 | RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
 
+***Casos de uso***
+
+Caso de uso: Análise de dados
+
+Ator: Usuários.
+Pré condições: O usuário precisa estar logado no sistema e ter acesso a página de dados.
+Fluxo Básico:
+[FB1] O usuário seleciona a página de histórico de dados.
+
+[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+
+[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+
+[FB4] O usuário escolhe a localização à ser pesquisada.
+
+Pós-condições:
+[1] O usuário receberá as previsões meteorológicas por meio da plataforma.
+
+[2] O usuário terá acesso aos dados préviamente selecionados.
+
+[3] O usuário pode manipular e fazer alterações nas váriaveis, data e localização para novas buscas.
 
 💎**GRUPO LALFF**
 ---
