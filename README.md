@@ -90,7 +90,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 ---
 **Caso de uso: Visualizar dados**
 - **Ator:** Usuário.
-- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
 1- O usuário seleciona a página de histórico de dados.
@@ -129,7 +129,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 **Caso de uso: Emitir relatório**
 - **Ator:** Usuário.
-- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
 1- O usuário escolhe a localização.
@@ -162,7 +162,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 **Caso de uso: Interação com o mapa**
 
 - **Ator:** Usuário.
-- **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
 1- O usuário seleciona a localização que deseja, usando um polígono no mapa.
@@ -175,7 +175,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 - **Pós-condições:**
 
-1- O usuário obterá um histórico dos pontos selecionados.
+1- O usuário obtém as informações do ponto selecionado para análise.
 
    
 
