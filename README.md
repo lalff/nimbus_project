@@ -175,7 +175,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 - **Pós-condições:**
 
-1- O usuário obtém as informações do ponto selecionado para analise.
+1- O usuário obtém as informações do ponto selecionado para análise.
 
    
 
