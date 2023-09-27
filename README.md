@@ -39,7 +39,7 @@ O sistema deverá apresentar as váriaveis manipuladas pela Nimbus de forma intu
 
 - 	**POR QUÊ?** 
 
-A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais institiva para o usuário, além de melhorar o desempenho visual e trazer responsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
+A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais intuitiva para o usuário, além de melhorar o desempenho visual e trazer responsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
 
 🔨 ***PROPÓSITO***
 ---
@@ -54,13 +54,13 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 1. Visualização de Dados Georreferenciados: O sistema deve permitir que os usuários visualizem marcadores georreferenciados em um mapa interativo, com um polígono que altere sua cor de acordo com as variáveis.
 
-1. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados na tabela, mapa e gráficos (barra, vetores e linear). Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
+2. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados na tabela, mapa e gráficos (barra, vetores e linear). Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
 
-1. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para diferentes formatos de tela e dispositivos.
+3. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para diferentes formatos de tela e dispositivos.
    
-1. Exportação de Dados: Deve haver um botão de exportação de dados em formatos: CSV, PDF e PNG.
+4. Exportação de Dados: Deve haver um botão de exportação de dados em formatos: CSV, PDF e PNG.
 
-1. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuário possa compreender os dados facilmente e realizar análises de maneira eficiente.
+5. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuário possa compreender os dados facilmente e realizar análises de maneira eficiente.
 
 🗒️ ***ELICITAÇÃO***
 ---
@@ -83,71 +83,99 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 | RNF3 | O sistema deverá ser desenvolvido com React.                                                                          |
 | RNF4 | O sistema deverá tratar o Json com os dados.                                                         |
 | RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
-| RNF6 | O sistema deverá estar disponível 24h por semana.                                      |      
+| RNF6 | O sistema deverá estar disponível 24h por dia.                                      |      
 
 
 👨‍💻 ***CASOS DE USO:***
 ---
-**Caso de uso: Análise de dados**
-- **Ator:** Usuários.
+**Caso de uso: Visualizar dados**
+- **Ator:** Usuário.
 - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
-[FB1] O usuário seleciona a página de histórico de dados.
+1- O usuário seleciona a página de histórico de dados.
 
-[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+2- O sistema fornece as opções de visualização: mapa, tabela ou gráfico.
 
-[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+3- O usuário seleciona o tipo de visualização de sua preferência.
 
-[FB4] O usuário escolhe a localização à ser pesquisada.
+4- O usuário seleciona a data de início e final.
 
+5- O usuário define a preferência entre as seguintes variáveis:
+
+- Precipitação 10min
+- Nível do rio 15 min 
+- Direção do vento
+- Temp. ponto de orvalho
+- Umidade relativa, 
+- Precipitação 15min
+- Cota de transbordamento
+- Rajada de vento
+- Visibilidade
+- Precipitação 1h
+- Velocidade do vento
+- Temperatura 
+- Descrição do tempo
+
+6- O usuário escolhe a estação meteorológica (a localizão mais próxima).
+
+7- O sistema retona as informações selecionadas pelo usuário.
   
 - **Pós-condições:**
 
-[1] O usuário receberá as previsões meteorológicas por meio da plataforma.
+1-  O usuário tem acesso aos dados.
 
-[2] O usuário terá acesso aos dados préviamente selecionados.
+2-  O usuário pode manipular e fazer alterações nas váriaveis, data e localização para nova analise.
 
-[3] O usuário pode manipular e fazer alterações nas váriaveis, data e localização para novas buscas.
-
-**Caso de uso: Extração de dados**
-- **Ator:** Usuários.
+**Caso de uso: Emitir relatório**
+- **Ator:** Usuário.
 - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
-[FB1] O usuário seleciona a página de histórico de dados.
+1- O usuário escolhe a localização.
 
-[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+2- O usuário seleciona o intervalo de tempo desejado (início e fim) a ser analisado.
 
-[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+3- O usuário seleciona a preferência entre as seguintes váriaveis:
+- Precipitação 10min
+- Nível do rio 15 min 
+- Direção do vento
+- Temp. ponto de orvalho
+- Umidade relativa, 
+- Precipitação 15min
+- Cota de transbordamento
+- Rajada de vento
+- Visibilidade
+- Precipitação 1h
+- Velocidade do vento
+- Temperatura 
+- Descrição do tempo
 
-[FB4] O usuário escolhe a localização da pesquisa.
+4- O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
 
-[FB5] O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
-
-[FB6] O usuário clica na opção de exportar.
+5- O usuário clica na opção de exportar.
 
 - **Pós-condições:**
 
-[1] O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
+1- O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
 
 **Caso de uso: Interação com o mapa**
 
-- **Ator:** Usuários.
+- **Ator:** Usuário.
 - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
 
-[FB1] O usuário seleciona a localização que deseja, usando um polígono no mapa.
+1- O usuário seleciona a localização que deseja, usando um polígono no mapa.
 
-[FB2] O usuário a partir da região selecionada no mapa, poderá especificar uma determinada área de busca selecionando uma estação.
+2- O usuário a partir da região selecionada no mapa, poderá especificar uma determinada área de uma estação próxima.
 
-[FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados para especificar a busca.
+3- O usuário seleciona o intervalo de tempo.
 
-[FB3] O usuário seleciona as váriaveis a serem manipuladas.
+4- O usuário seleciona as váriaveis a serem manipuladas.
 
 - **Pós-condições:**
 
-[1] O usuário obterá um relatório na página de histórico de dados com as informações selecionadas.
+1- O usuário obterá um histórico dos pontos selecionados.
 
    
 
