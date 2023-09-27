@@ -39,7 +39,7 @@ O sistema deverá apresentar as váriaveis manipuladas pela Nimbus de forma intu
 
 - 	**POR QUÊ?** 
 
-A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais institiva para o usuário, além de melhorar o desempenho visual e trazer reponsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
+A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais institiva para o usuário, além de melhorar o desempenho visual e trazer responsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
 
 🔨 ***PROPÓSITO***
 ---
@@ -54,15 +54,13 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 1. Visualização de Dados Georreferenciados: O sistema deve permitir que os usuários visualizem marcadores georreferenciados em um mapa interativo, com um polígono que altere sua cor de acordo com as variáveis.
 
-1. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados no mapa com gráficos (barra, vetores e linear) que mostram informações relacionadas. Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
+1. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados na tabela, mapa e gráficos (barra, vetores e linear). Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
 
-1. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para uso em dispositivos móveis e adaptável para diferentes formatos de tela.
+1. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para diferentes formatos de tela e dispositivos.
    
-1. Exportação de Dados: Deve haver botões de exportação que permitam aos usuários salvar os dados em formatos: CSV, PDF e PNG, para fins de análise ou compartilhamento.
+1. Exportação de Dados: Deve haver um botão de exportação de dados em formatos: CSV, PDF e PNG.
 
-1. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuários possam compreender os dados facilmente e realizar análises de maneira eficiente.
-
-1. Recursos de Pinçamento para Dispositivos Móveis: A interface móvel deve incluir recursos (zoom in/out) para facilitar a visualização e a navegação em telas menores.
+1. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuário possa compreender os dados facilmente e realizar análises de maneira eficiente.
 
 🗒️ ***ELICITAÇÃO***
 ---
@@ -79,12 +77,14 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 
 |    |      **Requisitos Não-Funcionais do Sistema**                                           |
-| --- | ----------------------------------------------------------- |
+| --- | ----------------------------------------------------------------- |
 | RNF1 | O sistema deverá oferecer adaptação para uso Mobile             |
-| RNF2 | O sistema deverá ser responsivo.          |
+| RNF2 | O sistema deverá ser responsivo.                                 |
 | RNF3 | O sistema deverá ser desenvolvido com React.                                                                          |
-| RNF4 | O sistema deverá tratar o Json com os dados. |
+| RNF4 | O sistema deverá tratar o Json com os dados.                                                         |
 | RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
+| RNF6 | O sistema deverá estar disponível 24h por semana.                                      |      
+
 
 👨‍💻 ***CASOS DE USO:***
 ---
@@ -139,7 +139,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 [FB1] O usuário seleciona a localização que deseja, usando um polígono no mapa.
 
-[FB2] O usuário a partir da região selecionada no mapa, poderá expecificar uma determinada área de busca selecionando uma estação.
+[FB2] O usuário a partir da região selecionada no mapa, poderá especificar uma determinada área de busca selecionando uma estação.
 
 [FB2] O usuário seleciona o intervalo de tempo desejado na tabela de dados para especificar a busca.
 
