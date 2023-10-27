@@ -6,6 +6,7 @@
 
 [Sobre a Nimbus](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
 
+---
 
 📚 ***5W2H***
 ---
@@ -35,13 +36,18 @@ Os usuários farão uso do sistema, quando houver a necessidade de busca por dad
 
 - **O QUÊ? (Quais dados)**
 
+
 Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras menos usadas como a nuclear. A lista muda de estação para estação e muda o formato do Json. 
 
 O sistema deverá apresentar as váriaveis manipuladas pela Nimbus de forma intuitiva e objetiva para os usuários.
 
-- 	**POR QUÊ?** 
+- 	**POR QUÊ?**
+
 
 A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais intuitiva para o usuário, além de melhorar o desempenho visual e trazer responsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
+
+
+---
 
 🔨 ***PROPÓSITO***
 ---
@@ -63,6 +69,8 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 4. Exportação de Dados: Deve haver um botão de exportação de dados em formatos: CSV, PDF e PNG.
 
 5. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuário possa compreender os dados facilmente e realizar análises de maneira eficiente.
+
+---
 
 🗒️ ***ELICITAÇÃO***
 ---
@@ -87,6 +95,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 | RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
 | RNF6 | O sistema deverá estar disponível 24h por dia.                                      |      
 
+---
 
 👨‍💻 ***CASOS DE USO:***
 ---
@@ -179,6 +188,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 1- O usuário obtém as informações do ponto selecionado para análise.
 
+---
 🔎***Layout***
 ---
 📱**Mobile**
@@ -189,10 +199,12 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 <br>
 [Protótipo](https://www.figma.com/file/D1dlNDwEn62nU8cJljysIG/NIMBUS-WEB?type=design&node-id=0-1&mode=design&t=Mms0bXSbvowGHmgN-0)
 
+---
 🔒**Código do Aplicativo**
 ---
 [Código](https://github.com/fffcamacho/nreact)
 
+---
 💎 ***GRUPO LALFF***
 ---
 
