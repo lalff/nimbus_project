@@ -2,8 +2,9 @@
 ---
 
 *** Sobre a Nimbus***
-[Link](![image](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
 ---
+[Link](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
+
 
 📚 ***5W2H***
 ---
@@ -177,14 +178,18 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 1- O usuário obtém as informações do ponto selecionado para análise.
 
-📱**Layout Mobile**
+***Layout***
 ---
+📱**Layout Mobile**
+<br>
 [Protótipo](https://www.figma.com/file/T2ll7aay22ZZSgBbSu3GKz/Nimbus-mobile?type=design&node-id=0-1&mode=design&t=VURFEupoBCaZrToO-0)
-
+<br>
 💻**Layout Desktop**
+<br>
 [Protótipo](https://www.figma.com/file/D1dlNDwEn62nU8cJljysIG/NIMBUS-WEB?type=design&node-id=0-1&mode=design&t=Mms0bXSbvowGHmgN-0)
 
-🔗**Código do Aplicativo**
+🔒**Código do Aplicativo**
+---
 [Código](https://github.com/fffcamacho/nreact)
 
 💎 ***GRUPO LALFF***
