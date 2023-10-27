@@ -100,6 +100,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 👨‍💻 ***CASOS DE USO:***
 ---
 **Caso de uso: Visualizar dados**
+---
 - **Ator:** Usuário.
 - **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
@@ -139,6 +140,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 2-  O usuário pode manipular e fazer alterações nas váriaveis, data e localização para nova analise.
 
 **Caso de uso: Emitir relatório**
+---
 - **Ator:** Usuário.
 - **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
@@ -171,6 +173,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 1- O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
 
 **Caso de uso: Interação com o mapa**
+---
 
 - **Ator:** Usuário.
 - **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
