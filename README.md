@@ -101,6 +101,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 ---
 **Caso de uso: Visualizar dados**
 ---
+
 - **Ator:** Usuário.
 - **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
@@ -141,6 +142,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 **Caso de uso: Emitir relatório**
 ---
+
 - **Ator:** Usuário.
 - **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
 - **Fluxo Básico:**
