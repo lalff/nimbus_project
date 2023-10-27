@@ -1,7 +1,7 @@
 ![image](https://github.com/lalff/nimbus_project/assets/142255965/392566f4-b21c-45e3-9647-88598b87733b)
 ---
 
-🤝***Projeto Nimbus***
+🌩️***Projeto Nimbus***
 ---
 
 [Sobre a Nimbus](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
@@ -179,13 +179,13 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 1- O usuário obtém as informações do ponto selecionado para análise.
 
-***Layout***
+🔎***Layout***
 ---
-📱**Layout Mobile**
+📱**Mobile**
 <br>
 [Protótipo](https://www.figma.com/file/T2ll7aay22ZZSgBbSu3GKz/Nimbus-mobile?type=design&node-id=0-1&mode=design&t=VURFEupoBCaZrToO-0)
 <br>
-💻**Layout Desktop**
+💻**Desktop**
 <br>
 [Protótipo](https://www.figma.com/file/D1dlNDwEn62nU8cJljysIG/NIMBUS-WEB?type=design&node-id=0-1&mode=design&t=Mms0bXSbvowGHmgN-0)
 
