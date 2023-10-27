@@ -1,10 +1,10 @@
 ![image](https://github.com/lalff/nimbus_project/assets/142255965/392566f4-b21c-45e3-9647-88598b87733b)
 ---
 
-***Sobre a Nimbus***
+🤝***Projeto Nimbus***
 ---
 
-[Link](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
+[Sobre a Nimbus](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
 
 
 📚 ***5W2H***
