@@ -1,9 +1,11 @@
-
-![image](https://github.com/lalff/nimbus_project/assets/142255965/c71b6d92-a7ac-4804-bb68-2d0b830bdcb7)
-
+![image](https://github.com/lalff/nimbus_project/assets/142255965/392566f4-b21c-45e3-9647-88598b87733b)
 ---
-Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno porte, composta por 6 membros, focada na gestão de risco climático que realiza previsões do tempo em locais listados pelos clientes, é mais utilizada por empresas de construção civil e monitoramento em cidades. A Nimbus ajuda a gerar um aumento significativo de produtividade evitando prejuízos com perda de insumos, que poderia ser causado por mudanças climáticas. 
 
+🌩️***Projeto Nimbus***
+---
+
+[Sobre a Nimbus](https://github.com/lalff/nimbus_project/blob/main/Sobre%20a%20Nimbus.md)
+---
 
 📚 ***5W2H***
 ---
@@ -88,77 +90,117 @@ Formada no Rio de Janeiro no ano de 2020, a Nimbus é uma Construtech de pequeno
 
 👨‍💻 ***CASOS DE USO:***
 ---
+**Caso de uso: Visualizar dados**
+---
 
-1. **Caso de uso: Análise de dados**
+- **Ator:** Usuário.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
 
-     - **Ator:** Usuários.
+1- O usuário seleciona a página de histórico de dados.
+
+2- O sistema fornece as opções de visualização: mapa, tabela ou gráfico.
+
+3- O usuário seleciona o tipo de visualização de sua preferência.
+
+4- O usuário seleciona a data de início e final.
+
+5- O usuário define a preferência entre as seguintes variáveis:
+
+- Precipitação 10min
+- Nível do rio 15 min 
+- Direção do vento
+- Temp. ponto de orvalho
+- Umidade relativa, 
+- Precipitação 15min
+- Cota de transbordamento
+- Rajada de vento
+- Visibilidade
+- Precipitação 1h
+- Velocidade do vento
+- Temperatura 
+- Descrição do tempo
+
+6- O usuário escolhe a estação meteorológica (a localizão mais próxima).
+
+7- O sistema retona as informações selecionadas pelo usuário.
   
-     - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
-  
-     - **Fluxo Básico:**
+- **Pós-condições:**
 
-         1. O usuário seleciona a página de histórico de dados.
+1-  O usuário tem acesso aos dados.
 
-         1. O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
-   
-         1. O usuário seleciona as váriaveis a serem manipuladas.
+2-  O usuário pode manipular e fazer alterações nas váriaveis, data e localização para nova analise.
 
-         1. O usuário escolhe a localização à ser pesquisada.
+**Caso de uso: Emitir relatório**
+---
 
-    - **Pós-condições:**
+- **Ator:** Usuário.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
 
-        1. O usuário receberá as previsões meteorológicas por meio da plataforma.
+1- O usuário escolhe a localização.
 
-        1. O usuário terá acesso aos dados préviamente selecionados.
+2- O usuário seleciona o intervalo de tempo desejado (início e fim) a ser analisado.
 
-        1. O usuário pode manipular e fazer alterações nas váriaveis, data e localização para novas buscas.
+3- O usuário seleciona a preferência entre as seguintes váriaveis:
+- Precipitação 10min
+- Nível do rio 15 min 
+- Direção do vento
+- Temp. ponto de orvalho
+- Umidade relativa, 
+- Precipitação 15min
+- Cota de transbordamento
+- Rajada de vento
+- Visibilidade
+- Precipitação 1h
+- Velocidade do vento
+- Temperatura 
+- Descrição do tempo
 
+4- O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
 
-1. **Caso de uso: Extração de dados**
+5- O usuário clica na opção de exportar.
 
-     - **Ator:** Usuários.
-  
-     - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
-  
-     - **Fluxo Básico:**
+- **Pós-condições:**
 
-         1. O usuário seleciona a página de histórico de dados.
+1- O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
 
-         1. O usuário seleciona o intervalo de tempo desejado na tabela de dados a ser analisado.
+**Caso de uso: Interação com o mapa**
+---
 
-         1. O usuário seleciona as váriaveis a serem manipuladas.
- 
-         1. O usuário escolhe a localização da pesquisa.
- 
-         1. O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
- 
-         1. O usuário clica na opção de exportar.
+- **Ator:** Usuário.
+- **Pré condições:** O usuário precisará estar logado no sistema e ter acesso a página de dados.
+- **Fluxo Básico:**
 
-     - **Pós-condições:**
+1- O usuário seleciona a localização que deseja, usando um polígono no mapa.
 
-         1. O usuário obterá um relatório exportado para o seu disponsitivo no formato desejado.
+2- O usuário a partir da região selecionada no mapa, poderá especificar uma determinada área de uma estação próxima.
 
-1. **Caso de uso: Interação com o mapa**
+3- O usuário seleciona o intervalo de tempo.
 
-     - **Ator:** Usuários.
-  
-     - **Pré condições:** O usuário precisa estar logado no sistema e ter acesso a página de dados.
-  
-     - **Fluxo Básico:**
+4- O usuário seleciona as váriaveis a serem manipuladas.
 
-         1. O usuário seleciona a localização que deseja, usando um polígono no mapa.
+- **Pós-condições:**
 
-         1. O usuário a partir da região selecionada no mapa, poderá especificar uma determinada área de busca selecionando uma estação.
+1- O usuário obtém as informações do ponto selecionado para análise.
 
-         1. O usuário seleciona o intervalo de tempo desejado na tabela de dados para especificar a busca.
+---
+🔎***Layout***
+---
+📱**Mobile**
+<br>
+[Protótipo](https://www.figma.com/file/T2ll7aay22ZZSgBbSu3GKz/Nimbus-mobile?type=design&node-id=0-1&mode=design&t=VURFEupoBCaZrToO-0)
+<br>
+💻**Desktop**
+<br>
+[Protótipo](https://www.figma.com/file/D1dlNDwEn62nU8cJljysIG/NIMBUS-WEB?type=design&node-id=0-1&mode=design&t=Mms0bXSbvowGHmgN-0)
 
-         1. O usuário seleciona as váriaveis a serem manipuladas.
+---
+🔒**Código do Aplicativo**
+---
+[Código](https://github.com/fffcamacho/nreact)
 
-     - **Pós-condições:**
-
-         1. O usuário obterá um relatório na página de histórico de dados com as informações selecionadas.
-
-   
+---
 💎 ***GRUPO LALFF***
 ---
 
