@@ -9,28 +9,30 @@
 ---
 
 📚 ***5W2H***
+
 ---
 
--	**QUEM?**
+- **QUEM?**
 
- Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
-   
+Qualquer tipo de empresa, instituição ou indivíduo que necessite de dados meteorológicos de alta precisão, como: empresas de construção civil, engenheiros, prefeituras, estaleiros, empresas de dragagem e terraplanagem, Incorporadoras e terminais portuários.
+
 
 - **COMO?**
-  
+
 O sistema absorve dados meteorológicos e dados de radar. Equipamentos que ficam monitorando as nuvens dentro de um raio (que aparece em tempo real) e apresentam:
-      
-    - Dados de raio (descarga elétrica);
-    - Dados de estações meteorológicas;
-    - Dados das próprias obras e localizações a serem monitoradas. 
- 
+
+- Dados de raio (descarga elétrica);
+- Dados de estações meteorológicas;
+- Dados das próprias obras e localizações a serem monitoradas. 
+
+
 Utiliza um end-pointing de estações pré-listadas. Eles escolhem o órgão e checam quais estações eles têm numa lista onde consta latitude, longitude e a medida da estação que é usada para colocar no mapa, para visualização do usuário.
   
--	**ONDE?**
+- **ONDE?**
 
 O sistema fornecerá para os usuários a utilização da página de histórico de dados por dispositivos móveis e web. Facilitando o uso tanto na rua quanto em escritótio.
 
--	**QUANDO?** 
+- **QUANDO?** 
 
 Os usuários farão uso do sistema, quando houver a necessidade de busca por dados meteorológicos, tanto para planejamento de obras ou acompanhamento delas, como para monitoramento de cidades ou qualquer outra necessidade do usuário. 
 
@@ -41,7 +43,7 @@ Com variáreis pluviais, variáveis fluviais, variáveis oceânicas e outras men
 
 O sistema deverá apresentar as váriaveis manipuladas pela Nimbus de forma intuitiva e objetiva para os usuários.
 
-- 	**POR QUÊ?**
+- **POR QUÊ?**
 
 
 A renovação no sistema vem para suprir a necessidade de transformar os dados fornecidos pela Nimbus de forma mais intuitiva para o usuário, além de melhorar o desempenho visual e trazer responsividade aos objetos manipulados pelo sistema. Permitindo também exportações CSV, PDF e PNG.
@@ -65,7 +67,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 2. Correlação de Dados: Os usuários devem ser capazes de correlacionar dados na tabela, mapa e gráficos (barra, vetores e linear). Essa correlação deve ser intuitiva e permitir a análise simultânea das variáveis.
 
 3. Visualização em Dispositivos Móveis: O sistema deve ser adaptável para diferentes formatos de tela e dispositivos.
-   
+
 4. Exportação de Dados: Deve haver um botão de exportação de dados em formatos: CSV, PDF e PNG.
 
 5. Clareza e Usabilidade: A interface deve ser projetada para ser clara e intuitiva, garantindo que os usuário possa compreender os dados facilmente e realizar análises de maneira eficiente.
@@ -92,8 +94,9 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 | RNF2 | O sistema deverá ser responsivo.                                 |
 | RNF3 | O sistema deverá ser desenvolvido com React.                                                                          |
 | RNF4 | O sistema deverá tratar o Json com os dados.                                                         |
-| RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |
+| RNF5 | O sistema deverá apresentar uma experiência intuitiva para o usuário.       |                                  |      
 | RNF6 | O sistema deverá estar disponível 24h por dia.                                      |      
+
 
 ---
 
@@ -133,7 +136,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 6- O usuário escolhe a estação meteorológica (a localizão mais próxima).
 
 7- O sistema retona as informações selecionadas pelo usuário.
-  
+
 - **Pós-condições:**
 
 1-  O usuário tem acesso aos dados.
