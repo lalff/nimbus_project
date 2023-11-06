@@ -207,7 +207,7 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 ---
 🔒**Código do Aplicativo**
 ---
-[Código](https://github.com/fffcamacho/nreact)
+[Código](https://github.com/lalff/lallf)
 
 ---
 💎 ***GRUPO LALFF***
