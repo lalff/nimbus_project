@@ -215,6 +215,11 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 [Slides](https://www.canva.com/design/DAFzId8WkuQ/5Hz_LaknLBXIzK4lIH1HOA/edit)
 
 ---
+**Cronograma do projeto**
+---
+[Trello](https://trello.com/b/zkYmyUAQ/projeto-nimbus)
+
+---
 💎 ***GRUPO LALFF***
 ---
 
