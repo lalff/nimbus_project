@@ -213,6 +213,11 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 [Código](https://github.com/lalff/lallf)
 
 ---
+**Apresentação**
+---
+[Slides](https://www.canva.com/design/DAFzId8WkuQ/5Hz_LaknLBXIzK4lIH1HOA/edit)
+
+---
 💎 ***GRUPO LALFF***
 ---
 
