@@ -116,20 +116,6 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 
 5- O usuário define a preferência entre as seguintes variáveis:
 
-- Precipitação 10min
-- Nível do rio 15 min 
-- Direção do vento
-- Temp. ponto de orvalho
-- Umidade relativa, 
-- Precipitação 15min
-- Cota de transbordamento
-- Rajada de vento
-- Visibilidade
-- Precipitação 1h
-- Velocidade do vento
-- Temperatura 
-- Descrição do tempo
-
 6- O usuário escolhe a estação meteorológica (a localizão mais próxima).
 
 7- O sistema retona as informações selecionadas pelo usuário.
@@ -152,19 +138,6 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 2- O usuário seleciona o intervalo de tempo desejado (início e fim) a ser analisado.
 
 3- O usuário seleciona a preferência entre as seguintes váriaveis:
-- Precipitação 10min
-- Nível do rio 15 min 
-- Direção do vento
-- Temp. ponto de orvalho
-- Umidade relativa, 
-- Precipitação 15min
-- Cota de transbordamento
-- Rajada de vento
-- Visibilidade
-- Precipitação 1h
-- Velocidade do vento
-- Temperatura 
-- Descrição do tempo
 
 4- O usuário escolhe o formato de arquivo desejado para download (CSV, PDF ou PNG).
 
