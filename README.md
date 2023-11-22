@@ -181,9 +181,9 @@ O propósito do sistema é fornecer aos usuários uma plataforma intuitiva para 
 [Protótipo](https://www.figma.com/file/D1dlNDwEn62nU8cJljysIG/NIMBUS-WEB?type=design&node-id=0-1&mode=design&t=Mms0bXSbvowGHmgN-0)
 
 ---
-🔒**Código do Aplicativo**
+🔒**Aplicativo**
 ---
-[Código](https://github.com/lalff/lallf)
+[Aplicativo](https://luizaconcor.github.io/Lalff/#/)
 
 ---
 **Apresentação**
